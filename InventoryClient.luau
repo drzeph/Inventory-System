@@ -1,4 +1,4 @@
---InventoryClient.lua
+--InventoryClient.luau
 --by DrZeph
 
 --[[
@@ -336,5 +336,6 @@ function Inventory:DragEnd(slot, inputPosition)
 		self.DragUI:Destroy()
 	end
 end
+
 
 return Inventory
